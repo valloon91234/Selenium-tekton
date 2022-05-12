@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>5165110012726599|01|2023
+5165110012726607|12|2024
+5165110012726631|02|27
+5165110012726649|11|28
+
+4101270107591959|04|2026|031|OFF
+4101270100251957|03|2026|035|VISA|BANCO|BONSUCESSO,|S.A.|BUSINESS|
+4101270001602498|04|2026|359| SUBIU G2A 1
+4101270031407785|04|2026|626| DATA INVALIDA
+4101270033738898|03|2026|086| CABO SALDO SUCESSO SUBIU 220 DOL
+4101270037571964|03|2026|927| SUBIU 100 G2A MAS CANCELOU  +100 DOL BUFF MARKET
+
+4101270051105350|02|2026|297|VISA|BANCO|BONSUCESSO,|S.A.|BUSINESS|
+4101270068177277|04|2026|688|VISA|BANCO|BONSUCESSO,|S.A.|BUSINESS||BRAZIL|BR|
+4101270075366087|04|2026|933|VISA|BANCO|BONSUCESSO,|S.A.|BUSINESS|
+4101270075608926|04|2026|105|VISA|BANCO|BONSUCESSO,|S.A.|BUSINESS|
+
+4101270075860774|02|2026|106|VISA|BANCO|BONSUCESSO,|S.A.|BUSINESS|
+4101270079522925|03|2026|277|VISA|BANCO|BONSUCESSO,|S.A.|BUSINESS|
+4101270080062853|02|2026|198| SUBIU G2A 228 POREM CANCELADO
+4101270080695942|04|2026|802| saldo baixo
+4101270082310987|03|2026|092|VISA|BANCO|BONSUCESSO,|S.A.|BUSINESS||BRAZIL|BR|
+4101270088607931|04|2026|731| OFF
+4101270100251957|03|2026|035|VISA|BANCO|BONSUCESSO,|S.A.|BUSINESS|
+
+4101270114120800|03|2026|671 OFF
+4101270115474529|03|2026|248 data ou queimada
+4101270075621093|03|2026|258|VISA|BANCO|BONSUCESSO,|S.A.|BUSINESS|f47c13a09bfcad9eb1f81fbf12c04516e0d900e409a74c660f933e69cf93914e16bc9facc7d379a036fe71468bd4504f2a388a0a28a9b727a38ab7843203488c4101270013429799|05|2026|506 DATA INVALIDA
+4101270051807971|04|2026|996 OFF
+4101270053792460|04|2026|692 OFF
+4101270060942041|02|2026|257 LIVE
+4101270063265085|02|2026|711 --VISA BANCO BONSUCESSO, S.A. BUSINESS BRAZIL(BR)
+4101270065722125|02|2026|743 NÃO TEM 200 USD
+4101270069176088|05|2026|511 OFF
+4101270073751090|04|2026|622 OFF
+4101270076180156|05|2026|872 OFF
+4101270077245636|04|2026|737 NÃO TEM 100 USD
+4101270078036174|03|2026|798 NÃO TEM 50 USD
+</value>
+  </data>
+</root>
